@@ -33,8 +33,14 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   display: flex;
   border: 10px solid goldenrod;
   min-height: 100vh;
+  flex-wrap: wrap;
+  /*flex-wrap:wrap-reverse;*/
+  flex-direction: column;
+
 }
 
 .box {
-  width: 300px;
+  /*width: 300px;*/
+    width: 33.33333%;
+    margin: 10px; /* unlike padding and border, not part of the box model*/
 }
